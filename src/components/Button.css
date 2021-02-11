@@ -1,0 +1,44 @@
+:root {
+    --clr-primary-1: #fff;
+    /* dark gray - use for text button */
+    --clr-primary-2: #242424;
+    --padding: 8px 20px;
+}
+
+.btn {
+    padding: var(--padding);
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--clr-primary-1primary);
+    color: var(--clr-primary-2);
+    border: var(--primary);
+}
+
+.bth-outline {
+    background-color: transparent;
+    color: #fff;
+    padding: var(--padding);
+    border: 1px solid var(--clr-primary-1primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn-medium {
+    padding: var(--padding);
+    font-size: 20px;
+}
+
+.btn-large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn-medium:hover, .btn-large:hover {
+    background-color: var(--clr-primary-1primary);
+    color: var(--clr-primary-2);
+    transition: all 0.3s ease-out;
+}
