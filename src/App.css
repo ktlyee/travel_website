@@ -25,7 +25,7 @@
 .products {
     background-image: url('./assets/images/img-1.jpg');
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
